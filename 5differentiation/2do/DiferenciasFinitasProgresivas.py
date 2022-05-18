@@ -6,7 +6,8 @@ f(x)=(sen^(3)2x)/(x^(4)+1) obtener f(2.45)
 
 '''
 
-from math import sin
+import math
+from cmath import sin
 
 x0=2.45
 
