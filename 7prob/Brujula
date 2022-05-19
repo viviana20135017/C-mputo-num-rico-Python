@@ -1,0 +1,8 @@
+import random
+
+moneda = ['aguila', 'sello']
+
+def selectRandom(moneda):
+  return random.choice(moneda)
+
+print("La cara de la moneda es: ", selectRandom(moneda))
