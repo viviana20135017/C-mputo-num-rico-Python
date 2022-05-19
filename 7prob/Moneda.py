@@ -1,8 +1,14 @@
-import numpy 
+import random
 
-moneda = ['cara', 'sello', 'cara', 'sello']
+cara=0
+sello=0
+moneda=int(input("Ingrese un numero: "))
+    
+for i in range(moneda):
+    if (random.choice(['cara', 'sello', ]) == 'cara'):
+        cara+=1
+    else:
+        sello+=1
 
-def selectRandom(moneda):
-  return numpy.random.choice(moneda, 4)
-
-print("La cara de la moneda es:: ", selectRandom(moneda))
+print("De", moneda,"monedas lanzadas" , cara, "fueron cara")
+print("De", moneda,"monedas lanzadas" , sello, "fueron sello")
