@@ -1,8 +1,8 @@
-import random
+import numpy 
 
-moneda = ['aguila', 'sello']
+brujula = ['norte', 'este', 'sur', 'oeste']
 
-def selectRandom(moneda):
-  return random.choice(moneda)
+def selectRandom(brujula):
+  return numpy.random.choice(brujula, 4)
 
-print("La cara de la moneda es: ", selectRandom(moneda))
+print("Direcciones cardinales", selectRandom(brujula))
