@@ -9,4 +9,4 @@ Los pesos de los gatos que estan a menos de una desviacion tipica de la media.
 import random
 peso=0
 peso = random.gauss(4.23, 0.76)
-print('Peso de los gatos que estan a menos de una desviacion tipica de la media:', peso)
+print("Peso de los gatos que estan a menos de una desviacion tipica de la media: ", peso)
